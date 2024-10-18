@@ -6,9 +6,10 @@
 cargo test
 ```
 
-Покрытие кода тестами:
+Покрытие кода тестами в виде html:
 
 ```sh
 cargo install cargo-tarpaulin
 cargo tarpaulin --out Html
+xdg-open tarpaulin-report.html
 ```
